@@ -30,6 +30,9 @@
       .myHeading {
         color: #ff00d6;
       }
+      ul {
+        background-color: ;
+      }
     </style>
   </head>
 
@@ -40,7 +43,7 @@
     </div>
     <button
       type="button"
-      onclick="hideFirstUl(),changeTitle(),addClassToTitle(),changePcontent(), changeUrls(), addToTheSecond() ,addParagraph() "
+      onclick="paintItGreen(),hideFirstUl(),changeTitle(),addClassToTitle(),changePcontent(), changeUrls(), addToTheSecond() ,addParagraph() "
     >
       Questo Buttone Cambia La Pagina (Premere solo Una Volta)
     </button>
@@ -150,7 +153,9 @@
                Scrivi una funzione che renda verde il background di ogni lista non ordinata
               */
 
-      const paintItGreen = function () {};
+      const paintItGreen = function () {
+        document.getElementsByTagName("ul");
+      };
 
       /* ESERCIZIO 9
                Scrivi una funzione che rimuova l'ultima lettera dall'h1 ogni volta che l'utente lo clicca
